@@ -1,12 +1,18 @@
 import React from "react";
-import Navbar from './Navbar';
-import Footer from './Footer';
-import MainContent from './MainContent';
 
+// Components
+import Sidebar from './components/layout/Sidebar'
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
+import MainContent from './components/layout/MainContent';
+
+import './styles/App.css'
 function App() {
+  
   return (
-    <div>
+    <div className="content">
       <Navbar />
+      <Sidebar />
       <MainContent />
       <Footer />
     </div>

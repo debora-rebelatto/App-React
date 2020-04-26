@@ -1,0 +1,55 @@
+.side {
+  height: 100%;
+  width: 100px;
+  background-color: #797979;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 50px;
+  transition: width 1s;
+}
+
+.hide-sidebar {
+  width: 0px !important;
+  transition: width 1s;
+}
+
+.side ul {
+  margin: 5px 0 0 0;
+  width: 100%;
+}
+
+.item {
+  padding: 0px 0 0px 20px;
+  font-size: 14px;
+  font-weight: 400;
+  width: 100%;
+  line-height: 40px;
+  display: block;
+}
+
+.item i {
+  width: 10px;
+  font-size: 1.5rem;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.item span {
+  color: #ddd;
+  display: block;
+}
+
+.item:visited {
+  color: #ddd;
+}
+
+.new-content {
+  left: 10px;
+}
+
+@media only screen and (min-width: 994px) {
+  .content {
+    padding-left: 10px !important;
+  }
+}
