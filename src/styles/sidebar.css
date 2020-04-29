@@ -44,9 +44,6 @@
   color: #ddd;
 }
 
-.new-content {
-  left: 10px;
-}
 
 @media only screen and (min-width: 994px) {
   .content {

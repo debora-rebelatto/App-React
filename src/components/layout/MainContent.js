@@ -3,6 +3,7 @@ import React from 'react';
 // Components
 import Jokes from '../Jokes';
 import Products from '../Product';
+import Counter from '../Counter';
 
 // Hard Coded Data
 import productsData from "../../vschoolProducts"
@@ -13,9 +14,9 @@ function MainContent() {
   let productsArray = productsData.map(product => <Products key={product.id} content={product} />)
 
   return (
-    <div>
+    <div id="content">
       <h1> My new App </h1>
-      <h1>Hello a third time!</h1>
+      <Counter />
       <ul>
         <li>Thing 1</li>
         <li>Thing 2</li>

@@ -6,3 +6,7 @@
   position: fixed;
   overflow: auto;
 }
+
+.new-content {
+  left: 10px;
+}
