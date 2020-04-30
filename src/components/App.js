@@ -11,7 +11,7 @@ import Swapi from './Swapi';
 import Jokes from './Jokes';
 import Products from './Products';
 import Forms from './Forms';
-
+import SecondForm from './SecondForm';
 import '../styles/App.css';
 
 class App extends Component {
@@ -43,6 +43,8 @@ class App extends Component {
                 <Route path="/jokes" component={Jokes} />
                 <Route path="/products" component={Products} />
                 <Route path="/forms" component={Forms} />
+                <Route path="/secondform" component={SecondForm} />
+
               </Router>
               <Sidebar />
               <Footer />

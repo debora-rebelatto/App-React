@@ -53,7 +53,7 @@ class Forms extends Component {
         <input
           type="checkbox"
           name="isFriendly"
-          checked={this.state.handleChange}
+          checked={this.state.isFriendly}
           onChange={this.handleChange}
         />
 
@@ -93,6 +93,10 @@ class Forms extends Component {
           <option value="green"> green </option>
           <option value="blue"> blue </option>
         </select>
+
+      <br />
+
+      <button> Submit </button>
 
         <h1>
           {this.state.firstName} <br />

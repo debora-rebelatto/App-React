@@ -17,6 +17,7 @@ function Navbar() {
       <Link to="/jokes">Jokes</Link>
       <Link to="/products">Products</Link>
       <Link to="/forms">Forms</Link>
+      <Link to="/secondform">Second Forms</Link>
     </div>
   )
 }
