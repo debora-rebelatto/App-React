@@ -44,7 +44,6 @@ class App extends Component {
                 <Route path="/products" component={Products} />
                 <Route path="/forms" component={Forms} />
                 <Route path="/secondform" component={SecondForm} />
-
               </Router>
               <Sidebar />
               <Footer />

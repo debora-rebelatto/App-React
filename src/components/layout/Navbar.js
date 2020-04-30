@@ -5,6 +5,7 @@ import '../../styles/navbar.css';
 
 function hideSidebar() {
   document.getElementById("sidebar").classList.toggle("hide-sidebar");
+  //document.getElementById("content").classList.toggle("new-content");
 }
 
 function Navbar() {
@@ -17,8 +18,8 @@ function Navbar() {
       <Link to="/jokes">Jokes</Link>
       <Link to="/products">Products</Link>
       <Link to="/forms">Forms</Link>
-      <Link to="/secondform">Second Forms</Link>
-    </div>
+      <Link to="/secondform">Second Form</Link>
+    </div >
   )
 }
 
