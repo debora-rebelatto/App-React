@@ -5,7 +5,6 @@ import '../../styles/navbar.css';
 
 function hideSidebar() {
   document.getElementById("sidebar").classList.toggle("hide-sidebar");
-  //document.getElementById("content").classList.toggle("new-content");
 }
 
 function Navbar() {
@@ -17,6 +16,7 @@ function Navbar() {
       <Link to="/content">Component</Link>
       <Link to="/jokes">Jokes</Link>
       <Link to="/products">Products</Link>
+      <Link to="/forms">Forms</Link>
     </div>
   )
 }

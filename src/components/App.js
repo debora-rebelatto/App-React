@@ -10,6 +10,7 @@ import Counter from './Counter';
 import Swapi from './Swapi';
 import Jokes from './Jokes';
 import Products from './Products';
+import Forms from './Forms';
 
 import '../styles/App.css';
 
@@ -40,7 +41,8 @@ class App extends Component {
                 <Route path="/swapi" component={Swapi} />
                 <Route path="/content" component={MainContent} />
                 <Route path="/jokes" component={Jokes} />
-                <Route path="/products" component={Products}/>
+                <Route path="/products" component={Products} />
+                <Route path="/forms" component={Forms} />
               </Router>
               <Sidebar />
               <Footer />
