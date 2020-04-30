@@ -1,13 +1,29 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-function Jokes(params) {
-  return (
-    <div>
-      <p> {params.joke.question} </p>
-      <p> {params.joke.punchLine} </p>
-      <hr />
-    </div>
-  )
+import jokesData from '../jokesData';
+
+export default class Jokes extends Component {
+  constructor() {
+    super();
+    this.state = {};
+    this.jokes = this.jokes.bind(this);
+  }
+
+  jokes(joke) {
+    return (
+      <div>
+        <p>{joke.question}</p>
+        <p>{joke.punchline}</p>
+      </div>
+    )
+  }
+
+  render() {
+    let JokeComponent = jokesData.map(joke => this.jokes(joke))
+    return (
+      <div>
+        {JokeComponent}
+      </div>
+    )
+  }
 }
-
-export default Jokes;
